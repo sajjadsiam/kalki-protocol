@@ -1,0 +1,44 @@
+node_modules/
+dist/
+build/
+.env
+*.log
+
+# Hardhat
+cache/
+artifacts/
+coverage/
+typechain-types/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Contract deployment
+deployment-info.json
+deployments/
+
+# Test
+coverage.json
+.coverage
+
+# Misc
+*.bak
+*.tmp

@@ -1,0 +1,20 @@
+{
+  "name": "kalki-orchestrator",
+  "version": "1.0.0",
+  "description": "Resolution orchestrator for Kalki Protocol",
+  "main": "src/orchestrator.ts",
+  "scripts": {
+    "dev": "ts-node src/orchestrator.ts",
+    "build": "tsc",
+    "start": "node dist/orchestrator.js"
+  },
+  "dependencies": {
+    "ethers": "^6.9.2",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.6",
+    "typescript": "^5.3.3",
+    "ts-node": "^10.9.2"
+  }
+}
